@@ -9,6 +9,7 @@ p {
 
 table {
     display: inline-block;
+    color: blue;
 }
 
 #maininfo {
@@ -43,6 +44,7 @@ table {
 }
 
 .maindiv {
+    color: lawngreen;
     text-align: center;
     background-color: grey;
     width: 100%;

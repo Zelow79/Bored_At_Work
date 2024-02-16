@@ -8,11 +8,16 @@
     <script src="javascript.js"></script>
 </head>
 <body onload="main()">
-    <p>
-        I am making this because I am bored. Below I will probably do something using Javascript or something, I don't know yet.
-    </p>
-
     <div class="maindiv" id="maininfo">
+        <p>
+            I am making this because I am bored. Below I will probably do something using Javascript or something, I don't know yet.
+        </p><br>
+        <table>
+            <thead>
+                <th>Time elapsed(seconds)</th>
+                <th id="elapsed">0</th>
+            </thead>
+        </table><br>
         <table>
             <thead>
                 <th>Depth</th>
@@ -34,8 +39,18 @@
                 <td id="x2">0</td>
                 <td id="xx2">0</td>
             </tr>
+        </table><br>
+        <table>
+            <thead>
+                <th>+=10^floor(log10(x))</th>
+                <th>+=10^ceil(floor(log10(x))/10)</th>
+            </thead>
+            <tr>
+                <td id="t1">0</td>
+                <td id="t2">0</td>
+            </tr>
         </table>
     </div>
-    
+
 </body>
 </html>
